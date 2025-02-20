@@ -5,6 +5,7 @@ from datetime import date, timedelta
 import string
 import time
 
+
 @st.cache_data
 def get_data():
     """Generate random sales data for Widget A through Widget Z"""
